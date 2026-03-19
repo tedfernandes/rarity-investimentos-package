@@ -21,9 +21,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 parallax-bg">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: `url(${new URL("@/assets/hero-bg.jpg", import.meta.url).href})`,
-          }}
+          style={{ backgroundImage: `url(${heroBg})` }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
       </div>
