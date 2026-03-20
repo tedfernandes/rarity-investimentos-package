@@ -121,8 +121,8 @@ const Index = () => {
             {galleryImages.map((img, i) => (
               <div key={i} className="gallery-item aspect-square relative">
                 <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
-                  <p className="text-white text-sm sm:text-base md:text-lg font-medium">{img.name}</p>
+                <div className="absolute bottom-0 left-0 right-0 bg-black/30 backdrop-blur-sm px-3 py-2">
+                  <p className="text-white font-medium" style={{ fontSize: "16px" }}>{img.name}</p>
                 </div>
               </div>
             ))}
