@@ -105,13 +105,24 @@ const Index = () => {
       {/* ===== GALLERY — alt background ===== */}
       <section className="section-alt py-14 md:py-20">
         <div className="container mx-auto px-8 sm:px-12 lg:px-24 fade-in fade-in-delay-3">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center uppercase tracking-wider" style={{ color: "#000000" }}>
-            UNIDADES ENTREGUES
-          </h2>
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-wider" style={{ color: "#000000" }}>
+              PRIMEIRA EXPANSÃO DE OURO
+            </h2>
+            <span className="inline-block px-3 py-1 rounded-full text-xs font-medium tracking-widest uppercase border border-black/20 bg-black/5 text-black/70 mt-3">
+              Unidades Entregues
+            </span>
+            <p className="text-sm text-black/60 mt-2">
+              Primeira expansão, da unidade Ouro Preto, foi um sucesso
+            </p>
+          </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             {galleryImages.map((img, i) => (
-              <div key={i} className="gallery-item aspect-square">
+              <div key={i} className="gallery-item aspect-square relative">
                 <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
+                  <p className="text-white text-xs sm:text-sm font-medium">{img.name}</p>
+                </div>
               </div>
             ))}
           </div>
