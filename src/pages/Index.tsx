@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import heroBg from "@/assets/hero-bg.jpg";
 import ceoPortrait from "@/assets/ceo-portrait.jpg";
 import chalet1 from "@/assets/chalet-1.jpg";
