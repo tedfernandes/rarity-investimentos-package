@@ -9,12 +9,12 @@ import chalet5 from "@/assets/chalet-5.jpg";
 import chalet6 from "@/assets/chalet-6.jpg";
 
 const galleryImages = [
-  { src: chalet1, alt: "Chalé com casal e deck" },
-  { src: chalet2, alt: "Chalé A-frame com montanhas" },
-  { src: chalet3, alt: "Chalé moderno elevado" },
-  { src: chalet4, alt: "Chalé com heliponto" },
-  { src: chalet5, alt: "Chalé com varanda e piscina" },
-  { src: chalet6, alt: "Chalé geodésico panorâmico" },
+  { src: chalet1, alt: "Barn House", name: "Barn House" },
+  { src: chalet2, alt: "A-Frame", name: "A-Frame" },
+  { src: chalet3, alt: "Scandinavian", name: "Scandinavian" },
+  { src: chalet4, alt: "Double A-Frame", name: "Double A-Frame" },
+  { src: chalet5, alt: "Cabana Linear", name: "Cabana Linear" },
+  { src: chalet6, alt: "Iglu Tower", name: "Iglu Tower" },
 ];
 
 const highlights = [
