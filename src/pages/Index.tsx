@@ -25,8 +25,12 @@ const highlights = [
 ];
 
 const Index = () => {
+  useEffect(() => {
+    document.documentElement.classList.add("dark");
+  }, []);
+
   return (
-    <main className="min-h-screen dark">
+    <main className="min-h-screen">
 
       {/* ===== HERO — full viewport, immersive ===== */}
       <section className="relative min-h-screen flex items-center overflow-hidden">
