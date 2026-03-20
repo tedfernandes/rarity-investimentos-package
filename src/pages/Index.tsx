@@ -38,7 +38,7 @@ const Index = () => {
         <div className="absolute inset-0">
           <img src={heroBg} alt="" className="w-full h-full object-cover object-[center_20%]" />
           <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[hsl(0_0%_6%)] via-black/40 to-transparent" />
         </div>
 
         <div className="relative z-10 container mx-auto px-3 sm:px-6 lg:px-8 py-20 md:py-32">
