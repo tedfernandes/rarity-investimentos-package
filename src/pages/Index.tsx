@@ -84,6 +84,7 @@ const Index = () => {
             >
               Quero Participar
             </a>
+            </div>
           </div>
         </div>
       </section>
