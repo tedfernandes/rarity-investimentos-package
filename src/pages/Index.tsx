@@ -41,33 +41,33 @@ const Index = () => {
         </div>
 
         <div className="relative z-10 container mx-auto px-5 sm:px-6 lg:px-8 py-20 md:py-32">
-          <div className="max-w-2xl fade-in">
+          <div className="max-w-2xl fade-in text-center sm:text-left mx-auto sm:mx-0">
             <span className="inline-block px-3 py-1 rounded-full text-xs font-medium tracking-widest uppercase border border-white/20 bg-white/10 text-white/80 mb-5 backdrop-blur-sm">
               Evento Exclusivo
             </span>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-[1.05] mb-5 text-white" style={{ textWrap: "balance" }}>
+            <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold leading-[1.05] mb-5 text-white" style={{ textWrap: "balance" }}>
               Pré-lançamento da{" "}
               <span className="glow-accent">Expansão Rarity Chalés</span>{" "}
               para outro estado
             </h1>
-            <p className="text-white/70 text-base md:text-lg leading-relaxed mb-8 max-w-lg">
+            <p className="text-white/70 text-sm sm:text-base md:text-lg leading-relaxed mb-8 max-w-lg mx-auto sm:mx-0">
               Evento ao vivo com o CEO <strong className="text-white">Victor Alfenas</strong>.
               Saiba como ser sócio neste empreendimento de sucesso. Não fique de fora desta oportunidade.
             </p>
-            <div className="inline-flex flex-wrap gap-5 mb-6 px-5 py-3 rounded-full border border-transparent shimmer-border">
-              <span className="flex items-center gap-2 text-sm" style={{ color: "#ffffff" }}>
+            <div className="inline-flex flex-wrap justify-center sm:justify-start gap-3 sm:gap-5 mb-6 px-3 sm:px-5 py-2 sm:py-3 rounded-full border border-transparent shimmer-border">
+              <span className="flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm" style={{ color: "#ffffff" }}>
                 <span className="relative flex h-3 w-3">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
                 </span>
                 Online e Ao Vivo
               </span>
-              <span className="flex items-center gap-2 text-sm" style={{ color: "#ffffff" }}>
-                <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/></svg>
+              <span className="flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm" style={{ color: "#ffffff" }}>
+                <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-accent" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/></svg>
                 100% Gratuito
               </span>
-              <span className="flex items-center gap-2 text-sm" style={{ color: "#ffffff" }}>
-                <svg className="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+              <span className="flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm" style={{ color: "#ffffff" }}>
+                <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
                 26/03 às 17:30
               </span>
             </div>
@@ -76,7 +76,7 @@ const Index = () => {
               href="https://wa.me/5500000000000?text=Olá! Quero participar do evento de pré-lançamento da Rarity Chalés!"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-green inline-block text-sm"
+              className="btn-green inline-block text-xs sm:text-sm"
             >
               Quero Participar
             </a>
