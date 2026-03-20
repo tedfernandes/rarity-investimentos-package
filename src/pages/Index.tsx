@@ -121,7 +121,7 @@ const Index = () => {
             {galleryImages.map((img, i) => (
               <div key={i} className="gallery-item aspect-square relative rounded-xl overflow-hidden">
                 <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
-                <div className="absolute bottom-0 left-0 right-0 bg-black/30 backdrop-blur-sm px-3 py-2">
+                <div className="absolute bottom-0 left-0 right-0 bg-black/30 backdrop-blur-sm py-2" style={{ paddingLeft: "20px" }}>
                   <p className="text-white font-medium" style={{ fontSize: "16px" }}>{img.name}</p>
                 </div>
               </div>
