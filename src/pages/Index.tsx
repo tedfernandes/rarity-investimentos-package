@@ -95,7 +95,7 @@ const Index = () => {
 
       {/* ===== EVENT — default background ===== */}
       <section className="pt-8 pb-20 md:pt-10 md:pb-28">
-        <div className="container mx-auto px-5 sm:px-6 lg:px-8 fade-in fade-in-delay-2">
+        <div className="container mx-auto px-5 sm:px-6 lg:px-8 scroll-reveal">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
             O que teremos no <span className="text-accent">evento</span>
           </h2>
