@@ -71,7 +71,7 @@ const Index = () => {
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.05] mb-5 text-white" style={{ textWrap: "balance" }}>
               Pré-lançamento da{" "}
-              <span className="text-accent">Expansão Rarity</span> Chalés
+              <span className="text-accent glow-accent">Expansão Rarity</span> Chalés
             </h1>
             <p className="text-white/70 text-base md:text-lg leading-relaxed mb-8 max-w-lg">
               Evento ao vivo com o CEO <strong className="text-white">Victor Alfenas</strong>.
@@ -91,7 +91,7 @@ const Index = () => {
               href="https://wa.me/5500000000000?text=Olá! Quero participar do evento de pré-lançamento da Rarity Chalés!"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-accent inline-block text-sm"
+              className="btn-green inline-block text-sm"
             >
               Quero Participar
             </a>
@@ -136,11 +136,11 @@ const Index = () => {
 
       {/* ===== GALLERY — alt background ===== */}
       <section className="section-alt py-14 md:py-20">
-        <div className="container mx-auto px-5 sm:px-6 lg:px-8 fade-in fade-in-delay-3">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
-            Unidades <span className="text-accent">Entregues</span>
+        <div className="container mx-auto px-8 sm:px-12 lg:px-24 fade-in fade-in-delay-3">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center uppercase tracking-wider text-black dark:text-white">
+            UNIDADES ENTREGUES
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             {galleryImages.map((img, i) => (
               <div key={i} className="gallery-item aspect-square">
                 <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
