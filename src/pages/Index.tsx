@@ -136,11 +136,11 @@ const Index = () => {
 
       {/* ===== GALLERY — alt background ===== */}
       <section className="section-alt py-14 md:py-20">
-        <div className="container mx-auto px-5 sm:px-6 lg:px-8 fade-in fade-in-delay-3">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
-            Unidades <span className="text-accent">Entregues</span>
+        <div className="container mx-auto px-8 sm:px-12 lg:px-24 fade-in fade-in-delay-3">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center uppercase tracking-wider text-black dark:text-white">
+            UNIDADES ENTREGUES
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             {galleryImages.map((img, i) => (
               <div key={i} className="gallery-item aspect-square">
                 <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
