@@ -9,19 +9,19 @@ import chalet5 from "@/assets/chalet-5.jpg";
 import chalet6 from "@/assets/chalet-6.jpg";
 
 const galleryImages = [
-  { src: chalet1, alt: "Chalé com casal e deck" },
-  { src: chalet2, alt: "Chalé A-frame com montanhas" },
-  { src: chalet3, alt: "Chalé moderno elevado" },
-  { src: chalet4, alt: "Chalé com heliponto" },
-  { src: chalet5, alt: "Chalé com varanda e piscina" },
-  { src: chalet6, alt: "Chalé geodésico panorâmico" },
+  { src: chalet1, alt: "Barn House", name: "Barn House" },
+  { src: chalet2, alt: "A-Frame", name: "A-Frame" },
+  { src: chalet3, alt: "Scandinavian", name: "Scandinavian" },
+  { src: chalet4, alt: "Double A-Frame", name: "Double A-Frame" },
+  { src: chalet5, alt: "Cabana Linear", name: "Cabana Linear" },
+  { src: chalet6, alt: "Iglu Tower", name: "Iglu Tower" },
 ];
 
 const highlights = [
   { icon: "📊", text: "Informações sobre o investimento aos futuros sócios" },
   { icon: "🚁", text: "Imagens de drone ao vivo dos chalés" },
-  { icon: "👤", text: "Contato direto com o CEO" },
-  { icon: "🏷️", text: "Condições exclusivas na live" },
+  { icon: "👤", text: "Contato direto com o CEO da Rarity Chalés, Victor Alfenas" },
+  { icon: "🏷️", text: "Condições exclusivas para novos sócios somente na live" },
 ];
 
 const Index = () => {
@@ -105,13 +105,24 @@ const Index = () => {
       {/* ===== GALLERY — alt background ===== */}
       <section className="section-alt py-14 md:py-20">
         <div className="container mx-auto px-8 sm:px-12 lg:px-24 fade-in fade-in-delay-3">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center uppercase tracking-wider" style={{ color: "#000000" }}>
-            UNIDADES ENTREGUES
-          </h2>
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-wider" style={{ color: "#000000" }}>
+              PRIMEIRA EXPANSÃO DE OURO
+            </h2>
+            <span className="inline-block px-3 py-1 rounded-full text-xs font-medium tracking-widest uppercase border border-black/20 bg-black/5 text-black/70 mt-3">
+              Unidades Entregues
+            </span>
+            <p className="text-sm text-black/60 mt-2">
+              Primeira expansão, da unidade Ouro Preto, foi um sucesso
+            </p>
+          </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             {galleryImages.map((img, i) => (
-              <div key={i} className="gallery-item aspect-square">
+              <div key={i} className="gallery-item aspect-square relative">
                 <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
+                  <p className="text-white text-xs sm:text-sm font-medium">{img.name}</p>
+                </div>
               </div>
             ))}
           </div>
