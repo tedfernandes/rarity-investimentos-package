@@ -52,7 +52,7 @@ const Index = () => {
             </h1>
             <p className="text-white/70 text-sm sm:text-base md:text-lg leading-relaxed mb-8 max-w-lg mx-auto sm:mx-0">
               Evento ao vivo com o CEO <strong className="text-white">Victor Alfenas</strong>.
-              Saiba como ser sócio neste empreendimento de sucesso. Não fique de fora desta oportunidade.
+              Saiba como se tornar sócio neste empreendimento de sucesso. Não fique de fora desta oportunidade.
             </p>
             <div className="inline-flex flex-wrap justify-center sm:justify-start gap-3 sm:gap-5 mb-6 px-3 sm:px-5 py-2 sm:py-3 rounded-full border border-transparent shimmer-border">
               <span className="flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm" style={{ color: "#ffffff" }}>
