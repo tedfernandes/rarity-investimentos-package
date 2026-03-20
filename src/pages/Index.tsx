@@ -105,7 +105,7 @@ const Index = () => {
 
       {/* ===== GALLERY — alt background ===== */}
       <section className="section-alt py-14 md:py-20">
-        <div className="container mx-auto px-8 sm:px-12 lg:px-24 fade-in fade-in-delay-3">
+        <div className="container mx-auto px-5 sm:px-6 lg:px-12 fade-in fade-in-delay-3">
           <div className="text-center mb-8">
             <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-wider" style={{ color: "#000000" }}>
               PRIMEIRA EXPANSÃO
