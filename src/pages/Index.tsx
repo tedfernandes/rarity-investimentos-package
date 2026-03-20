@@ -34,7 +34,7 @@ const Index = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
         </div>
 
-        <div className="relative z-10 container mx-auto px-5 sm:px-6 lg:px-8 pb-16 md:pb-24 pt-32">
+        <div className="relative z-10 container mx-auto px-5 sm:px-6 lg:px-8 py-20 md:py-32">
           <div className="max-w-2xl fade-in">
             <span className="inline-block px-3 py-1 rounded-full text-xs font-medium tracking-widest uppercase border border-white/20 bg-white/10 text-white/80 mb-5 backdrop-blur-sm">
               Evento Exclusivo
