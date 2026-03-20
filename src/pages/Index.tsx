@@ -20,8 +20,8 @@ const galleryImages = [
 const highlights = [
   { icon: "📊", text: "Informações sobre o investimento aos futuros sócios" },
   { icon: "🚁", text: "Imagens de drone ao vivo dos chalés" },
-  { icon: "👤", text: "Contato direto com o CEO" },
-  { icon: "🏷️", text: "Condições exclusivas na live" },
+  { icon: "👤", text: "Contato direto com o CEO da Rarity Chalés, Victor Alfenas" },
+  { icon: "🏷️", text: "Condições exclusivas para novos sócios somente na live" },
 ];
 
 const Index = () => {
