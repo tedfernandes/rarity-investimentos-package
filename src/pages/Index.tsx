@@ -123,7 +123,7 @@ const Index = () => {
                 <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" style={img.alt === "Iglu Tower" ? { objectPosition: "center 25%" } : undefined} />
                 {img.badge && (
                   <div className="absolute top-0 right-0 overflow-hidden" style={{ width: "150px", height: "150px" }}>
-                    <div className="absolute bg-red-600 text-white text-[10px] font-bold uppercase tracking-wider text-center shadow-md" style={{ top: "28px", right: "-35px", transform: "rotate(45deg)", width: "180px", padding: "6px 0" }}>
+                    <div className="absolute bg-red-600 text-white text-[10px] font-bold uppercase tracking-wider text-center shadow-md" style={{ top: "30px", right: "-40px", transform: "rotate(45deg)", width: "200px", padding: "6px 0" }}>
                       {img.badge}
                     </div>
                   </div>
