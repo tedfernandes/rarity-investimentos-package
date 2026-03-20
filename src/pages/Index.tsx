@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useScrollReveal, useParallax } from "@/hooks/use-scroll-animations";
 import rarityVideo from "@/assets/rarity-video.mp4";
 import logoRarity from "@/assets/logo-rarity.png";
 import heroBg from "@/assets/hero-bg.jpg";
