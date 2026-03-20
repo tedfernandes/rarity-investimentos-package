@@ -120,10 +120,10 @@ const Index = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             {galleryImages.map((img, i) => (
               <div key={i} className="gallery-item aspect-square relative rounded-xl overflow-hidden">
-                <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" style={img.alt === "Iglu Tower" ? { objectPosition: "center 15%" } : undefined} />
+                <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" style={img.alt === "Iglu Tower" ? { objectPosition: "center 10%" } : undefined} />
                 {img.badge && (
-                  <div className="absolute top-0 right-0 overflow-hidden w-32 h-32">
-                    <div className="absolute top-3 -right-8 rotate-45 bg-red-600 text-white text-[10px] font-bold uppercase tracking-wider py-1 w-40 text-center shadow-md">
+                  <div className="absolute top-0 right-0 overflow-hidden w-36 h-36">
+                    <div className="absolute top-5 -right-6 rotate-45 bg-red-600 text-white text-[11px] font-bold uppercase tracking-wider py-1.5 w-44 text-center shadow-md">
                       {img.badge}
                     </div>
                   </div>
