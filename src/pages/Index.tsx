@@ -119,8 +119,8 @@ const Index = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             {galleryImages.map((img, i) => (
-              <div key={i} className="gallery-item aspect-square relative">
-                <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+              <div key={i} className="gallery-item aspect-square relative shimmer-border rounded-xl overflow-hidden">
+                <img src={img.src} alt={img.alt} className="w-full h-full object-cover rounded-xl" loading="lazy" />
                 <div className="absolute bottom-0 left-0 right-0 bg-black/30 backdrop-blur-sm px-3 py-2">
                   <p className="text-white font-medium" style={{ fontSize: "16px" }}>{img.name}</p>
                 </div>
@@ -151,7 +151,7 @@ const Index = () => {
                   href="https://wa.me/5500000000000?text=Olá! Quero participar do evento de pré-lançamento da Rarity Chalés!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-accent inline-block text-xs py-3 px-6"
+                  className="btn-green inline-block text-xs py-3 px-6"
                 >
                   Garantir Minha Vaga
                 </a>
@@ -159,7 +159,7 @@ const Index = () => {
             </div>
 
             {/* Video */}
-            <div className="rounded-2xl overflow-hidden border border-border aspect-square">
+            <div className="rounded-2xl overflow-hidden aspect-square shimmer-border">
               <video
                 src={rarityVideo}
                 autoPlay
