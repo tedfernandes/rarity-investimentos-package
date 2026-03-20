@@ -133,7 +133,7 @@ const Index = () => {
       {/* ===== CEO + CTA — default background ===== */}
       <section className="py-14 md:py-20">
         <div className="container mx-auto px-5 sm:px-6 lg:px-8 fade-in fade-in-delay-4">
-          <div className="max-w-5xl mx-auto grid md:grid-cols-[3fr_2fr] gap-6 items-stretch">
+          <div className="max-w-5xl mx-auto grid md:grid-cols-[3fr_1fr] gap-6 items-stretch">
             {/* Bio Card */}
             <div className="flex flex-col sm:flex-row items-center gap-6 p-6 md:p-8 rounded-2xl bg-card border border-border" style={{ boxShadow: "var(--shadow-card)" }}>
               <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-2xl overflow-hidden shrink-0 border-2 border-accent/20">
