@@ -81,7 +81,8 @@ const Index = () => {
             </div>
             <br />
             <a
-              href="https://wa.me/5522999013766              target="_blank"
+              href="https://wa.me/5522999013766"
+              target="_blank"
               rel="noopener noreferrer"
               className="btn-green inline-block text-xs sm:text-sm"
             >
