@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Vite Preview",
+      "type": "node",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["vite", "preview"],
+      "port": 4173,
+      "request": "launch"
+    }
+  ]
+}

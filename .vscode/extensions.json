@@ -1,7 +1,10 @@
 {
   "recommendations": [
+    "ms-vscode.vscode-typescript-next",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "vue.volar",
+    "unifiedjs.vscode-mdx"
   ]
 }
